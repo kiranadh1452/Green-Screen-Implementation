@@ -1,0 +1,9 @@
+canvas{
+  width: 485pt;
+  height:300pt;
+  border: 3px solid black ;
+  margin:5px;
+}
+body{
+  background-image:url("back.jpg");
+}

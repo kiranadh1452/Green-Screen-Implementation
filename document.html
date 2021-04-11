@@ -1,0 +1,21 @@
+<html>
+<head> <title> Green Screen </title>
+<link rel="stylesheet" type="text/css" href="files/abc.css" > </head>
+
+<body>
+
+<h1>Green Screen Algorithm </h1>
+<p><canvas id="d1"> </canvas>
+<canvas id="d2"> </canvas> </p>
+<p> Fore-ground Image :
+<input type="file" multiple="false" accept="images/*" id="fg" onchange="loadfg()"> </p>
+<p>Back-ground Image :
+ <input type="file" multiple="false" accept="images/*" id="bg" onchange="loadbg()"> </p>
+<p> <input type="button" value="Create Composite" onclick="greenScreen()" >
+  <input type="button" value="Clear Canvas" onclick="clrCanvas()" > </p>
+
+<script src="files/backe.js"> </script>
+<script src="files/SimpleImage.js"> </script>
+</body>
+</html>
+
